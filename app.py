@@ -25,4 +25,5 @@ def page_post(post_pk):
                            )
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
